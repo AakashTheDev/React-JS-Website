@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.Head{
+  position: sticky;
+  top: 0;
+  width: auto;
+  height: auto;
+  background-color: antiquewhite;
+}
+.Logo{
+  width: 80px;
+  height: 70px;
+  margin: 10px;
+}
+.Logo:hover{
+color: blue;
+}
+.list{
+  display: flex;
+  list-style-type: none;
+  position: fixed;
+  top: 1px;
+  right: 0;
+  margin: 25px;
+}
+ul li{
+  margin: 10px;
+  padding: 5px;
+  font-size: 20px;
+  opacity: 0.4;
+}
+ul li:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+h2{
+  text-decoration: none;
+  position: fixed;
+  top: 20px;
+  left: 500px;
+  font-size: 50px;
+  font-family: Impact;
+}
+h2:hover{
+  color: black;
+  text-decoration: underline;
+}
+.para{
+  border: 1px solid transparent;
+  width: 700px;
+  height: 150px;
+  text-align-last:auto;
+  text-align: justify;
+}
+.para,h3{
+  margin: 10px;
+  padding: 10px;
+}
+.image{
+  width: 300px;
+  height: 300px;
+  float: inline-end;
+}
+.demo{
+  margin: 10px;
+  padding: 10px;
+}
+.forms{
+  border: 3px solid rgb(0, 233, 50);
+  width: 300px;
+  height: 200px;
+  position: fixed;
+  top: 200px;
+  left: 900px;
+  background-color: white;
+  opacity: 0.6;
+}
+input {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 3px;
+}
+form > a >button{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+}
